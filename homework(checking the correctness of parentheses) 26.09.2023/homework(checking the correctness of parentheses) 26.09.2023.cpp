@@ -100,7 +100,7 @@ bool Stack::checkCorrectness(char* buff) {
 	Stack T;
 
 	int index = 0, j = 0;
-	char* tempSumbol = new char[100];
+	char* tempSumbol = new char[strlen(buff)];
 
 	for (int i = 0; i < strlen(buff); i++) {
 		char correct = buff[i];
