@@ -131,6 +131,9 @@ bool Stack::checkCorrectness(char* buff) {
 			T.Push(correct);
 	}
 
+	if (index != 0)
+		return 0;
+
 	return 1;
 }
 
